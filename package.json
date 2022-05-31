@@ -1,6 +1,6 @@
 {
   "name": "@zufans/accordionTitle",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Accordion-library",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
