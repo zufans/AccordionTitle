@@ -2,7 +2,7 @@
 <p>This is a Navigation dropdown component for react application.</p>
 
 ### Installtion
-<code>npm install @zufans/accordionTitle</code>
+<code>npm install @zufans/accordion-title</code>
 <br>
 
 <table>
