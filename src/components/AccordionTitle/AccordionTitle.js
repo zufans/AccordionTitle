@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types'; // ES6
+//import PropTypes from 'prop-types'; // ES6
 import './AccordionTitle.style.css'
 export default function AccordionTitle ({left, center, right}){
     return (
@@ -10,7 +10,7 @@ export default function AccordionTitle ({left, center, right}){
         </div>
     )
 }
-
+/*
 AccordionTitle.propTypes={
     left:PropTypes.oneOfType([
         PropTypes.string,
@@ -25,3 +25,4 @@ AccordionTitle.propTypes={
         PropTypes.element,
     ]),
 }
+*/

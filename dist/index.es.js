@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 function styleInject(css, ref) {
   if ( ref === void 0 ) ref = {};
@@ -46,10 +45,21 @@ function AccordionTitle({
     className: "right"
   }, right));
 }
-AccordionTitle.propTypes = {
-  left: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
-  center: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
-  right: PropTypes.oneOfType([PropTypes.string, PropTypes.element])
-};
+/*
+AccordionTitle.propTypes={
+    left:PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.element,
+    ]),
+    center:PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.element,
+    ]), 
+    right:PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.element,
+    ]),
+}
+*/
 
 export { AccordionTitle as default };

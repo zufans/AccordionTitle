@@ -1,12 +1,10 @@
 'use strict';
 
 var React = require('react');
-var PropTypes = require('prop-types');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
 var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
-var PropTypes__default = /*#__PURE__*/_interopDefaultLegacy(PropTypes);
 
 function styleInject(css, ref) {
   if ( ref === void 0 ) ref = {};
@@ -53,10 +51,21 @@ function AccordionTitle({
     className: "right"
   }, right));
 }
-AccordionTitle.propTypes = {
-  left: PropTypes__default["default"].oneOfType([PropTypes__default["default"].string, PropTypes__default["default"].element]),
-  center: PropTypes__default["default"].oneOfType([PropTypes__default["default"].string, PropTypes__default["default"].element]),
-  right: PropTypes__default["default"].oneOfType([PropTypes__default["default"].string, PropTypes__default["default"].element])
-};
+/*
+AccordionTitle.propTypes={
+    left:PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.element,
+    ]),
+    center:PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.element,
+    ]), 
+    right:PropTypes.oneOfType([
+        PropTypes.string,
+        PropTypes.element,
+    ]),
+}
+*/
 
 module.exports = AccordionTitle;
