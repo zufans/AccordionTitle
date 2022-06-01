@@ -11,7 +11,7 @@ export default function AccordionTitle ({left, center, right}){
     )
 }
 
-AccordionTitle.PropTypes={
+AccordionTitle.propTypes={
     left:PropTypes.oneOfType([
         PropTypes.string,
         PropTypes.element,

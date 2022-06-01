@@ -46,7 +46,7 @@ function AccordionTitle({
     className: "right"
   }, right));
 }
-AccordionTitle.PropTypes = {
+AccordionTitle.propTypes = {
   left: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
   center: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
   right: PropTypes.oneOfType([PropTypes.string, PropTypes.element])
