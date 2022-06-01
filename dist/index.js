@@ -1,9 +1,11 @@
 'use strict';
 
+var React = require('react');
 var PropTypes = require('prop-types');
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
+var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
 var PropTypes__default = /*#__PURE__*/_interopDefaultLegacy(PropTypes);
 
 function styleInject(css, ref) {
@@ -41,13 +43,13 @@ function AccordionTitle({
   center,
   right
 }) {
-  return /*#__PURE__*/React.createElement("div", {
+  return /*#__PURE__*/React__default["default"].createElement("div", {
     class: "container"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React__default["default"].createElement("div", {
     class: "left"
-  }, left), /*#__PURE__*/React.createElement("div", {
+  }, left), /*#__PURE__*/React__default["default"].createElement("div", {
     class: "center"
-  }, center), /*#__PURE__*/React.createElement("div", {
+  }, center), /*#__PURE__*/React__default["default"].createElement("div", {
     class: "right"
   }, right));
 }
