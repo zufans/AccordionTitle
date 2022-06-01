@@ -1,2 +1,2 @@
 import {AccordionTitle} from "./AccordionTitle"
-export default {AccordionTitle}
+export default AccordionTitle
