@@ -1,1 +1,2 @@
-export * from "./components/AccordionTitle"
+import AccordionTitle from "./components/AccordionTitle/AccordionTitle"
+export default AccordionTitle
