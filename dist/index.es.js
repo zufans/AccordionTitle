@@ -37,13 +37,13 @@ function AccordionTitle({
   right
 }) {
   return /*#__PURE__*/React.createElement("div", {
-    class: "container"
+    className: "container"
   }, /*#__PURE__*/React.createElement("div", {
-    class: "left"
+    className: "left"
   }, left), /*#__PURE__*/React.createElement("div", {
-    class: "center"
+    className: "center"
   }, center), /*#__PURE__*/React.createElement("div", {
-    class: "right"
+    className: "right"
   }, right));
 }
 AccordionTitle.PropTypes = {

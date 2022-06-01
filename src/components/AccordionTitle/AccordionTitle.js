@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import './AccordionTitle.style.css'
 export default function AccordionTitle ({left, center, right}){
     return (
-        <div class='container'>
-                <div class='left'>{left}</div>
-                <div class="center">{center}</div>
-                <div class='right'>{right}</div>
+        <div className='container'>
+                <div className='left'>{left}</div>
+                <div className="center">{center}</div>
+                <div className='right'>{right}</div>
         </div>
     )
 }
