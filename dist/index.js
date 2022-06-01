@@ -33,7 +33,7 @@ function styleInject(css, ref) {
   }
 }
 
-var css_248z = "";
+var css_248z = ".container {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n  }\n\n\n  .left {\n      text-align: left;\n      padding-left: 10px;\n      width: calc(100% /3);\n      max-width: calc(100% /3);\n      overflow: hidden;\n  }\n\n  .center {\n    text-align: center;\n    width: calc(100% /3); \n    max-width: calc(100% /3);\n    overflow: hidden;\n  }\n\n  .right {\n      text-align: right;\n      padding-right: 10px;\n      width: calc(100% /3);\n      max-width: calc(100% /3);\n      overflow: hidden;\n  }";
 styleInject(css_248z);
 
 function AccordionTitle({
