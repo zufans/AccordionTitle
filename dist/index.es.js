@@ -1,4 +1,4 @@
-import React from 'react';
+import 'react';
 
 function styleInject(css, ref) {
   if ( ref === void 0 ) ref = {};
@@ -29,37 +29,3 @@ function styleInject(css, ref) {
 
 var css_248z = "";
 styleInject(css_248z);
-
-function AccordionTitle({
-  left,
-  center,
-  right
-}) {
-  return /*#__PURE__*/React.createElement("div", {
-    className: "container"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "left"
-  }, left), /*#__PURE__*/React.createElement("div", {
-    className: "center"
-  }, center), /*#__PURE__*/React.createElement("div", {
-    className: "right"
-  }, right));
-}
-/*
-AccordionTitle.propTypes={
-    left:PropTypes.oneOfType([
-        PropTypes.string,
-        PropTypes.element,
-    ]),
-    center:PropTypes.oneOfType([
-        PropTypes.string,
-        PropTypes.element,
-    ]), 
-    right:PropTypes.oneOfType([
-        PropTypes.string,
-        PropTypes.element,
-    ]),
-}
-*/
-
-export { AccordionTitle as default };

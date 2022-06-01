@@ -1,3 +1,2 @@
-import AccordionTitle from "./AccordionTitle"
-import '../AccordionTitle.style.css'
-export default AccordionTitle
+import {AccordionTitle} from "./AccordionTitle"
+export default {AccordionTitle}
