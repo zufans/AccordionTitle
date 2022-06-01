@@ -1,7 +1,7 @@
 import React from 'react';
 //import PropTypes from 'prop-types'; // ES6
 import './AccordionTitle.style.css'
-export function AccordionTitle ({left, center, right}){
+export default function AccordionTitle ({left, center, right}){
     return (
         <div className='container'>
                 <div className='left'>{left}</div>
